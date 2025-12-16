@@ -1,0 +1,30 @@
+# win11_toast(title, msg, audio='https://nyanpass.com/nyanpass.mp3')
+    # audio_path = play_scaled_mp3(audio, volume)
+    # if not os.path.isfile(audio_path or "./abc1234567and-12034523.txt"):
+    #     raise FileNotFoundError(f"Audio file not found: {audio_path!r}")          
+    # pygame.mixer.init()
+    # pygame.mixer.music.load(audio_path)
+    # pygame.mixer.music.play()
+    # win11_toast(title, msg)
+
+    # while pygame.mixer.music.get_busy():
+    #     pygame.time.delay(100)
+
+    # Uninitialize mixer
+    #         pygame.mixer.quit()
+    #     except Exception as e:
+    #         logger.exception("win11toast with audio failed: %s", e)
+    #         try:
+    #             win11_toast(title, msg)
+    #         except Exception:
+    #             logger.exception("win11toast fallback failed.")
+    # else:
+    #     logger.debug("win11toast unavailable; skipping toast.")
+
+    # # fallback audio
+    # if os.path.isfile(NYANPASU_SOUND):
+    #     if HAVE_PLAYSOUND:
+    #         try:
+    #             threading.Thread(target=playsound, args=(NYANPASU_SOUND,), daemon=True).start()
+    #         except Exception as e:
+    #             logger.exception("playsound playback failed: %s", e)
